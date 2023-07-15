@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0506663d.css",
+    "main.js": "/static/js/main.4597828e.js",
+    "static/media/doctor-caring.png": "/static/media/doctor-caring.8c0d140ff74821c18178.png",
+    "static/media/empty-specialty.png": "/static/media/empty-specialty.a7c5004bc7f4ef58afce.png",
+    "static/media/empty-clinic.png": "/static/media/empty-clinic.e1a4a038d013722ba903.png",
+    "static/media/banner.jpg": "/static/media/banner.4810c68c82f9d84a98f3.jpg",
+    "static/media/empty-doctor.png": "/static/media/empty-doctor.339fcd76401e33afd174.png",
+    "static/media/bg-footer.png": "/static/media/bg-footer.1a47e9aaee60da7aa7aa.png",
+    "static/media/banner-2.png": "/static/media/banner-2.a05b8c80552eecd5d44d.png",
+    "static/media/doctors.jpg": "/static/media/doctors.d9335504cd6c9c935550.jpg",
+    "index.html": "/index.html",
+    "main.0506663d.css.map": "/static/css/main.0506663d.css.map",
+    "main.4597828e.js.map": "/static/js/main.4597828e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0506663d.css",
+    "static/js/main.4597828e.js"
+  ]
+}

@@ -1,0 +1,25 @@
+.header-container {
+  margin: 0 auto;
+}
+
+.header-logo img {
+  width: 100px;
+  margin: auto;
+}
+
+.header-selection ul li {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: unset;
+  transition: all 0.3s;
+}
+
+.header-selection ul li:hover {
+  color: white;
+  background-color: var(--color-blue);
+}
+
+.active-section-header {
+  color: white;
+  background-color: var(--color-blue) !important;
+}

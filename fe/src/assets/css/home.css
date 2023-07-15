@@ -1,0 +1,72 @@
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 35px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+}
+
+.swiper-pagination span {
+  padding: 6px !important;
+  margin: 0 10px !important;
+}
+
+.home-banner img {
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+}
+
+.home {
+  position: relative;
+}
+
+.list-option {
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  right: 0;
+}
+
+.advice-text {
+  position: relative;
+}
+
+.advice-text::before {
+  content: "";
+  background: url("https://booking.medon.vn/_next/static/media/icon_plus.c0488949.svg")
+    no-repeat 50%;
+  background-size: contain;
+  position: absolute;
+  left: 30px;
+  top: -30px;
+  z-index: -1;
+  width: 6rem;
+  height: 6rem;
+}
+
+.advice-text::after {
+  content: "";
+  background: url("https://booking.medon.vn/_next/static/media/bg_why_heart_top.425739bd.svg")
+    no-repeat 50%;
+  width: 15rem;
+  height: 15rem;
+  background-size: contain;
+  position: absolute;
+  right: 20px;
+  z-index: -1;
+  max-width: 450px;
+}
+
+.advice-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.advice-image {
+  width: 100%;
+  height: 100px;
+}

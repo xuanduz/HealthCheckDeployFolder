@@ -1,0 +1,26 @@
+.booking-title::before {
+  content: "";
+  background: url("https://booking.medon.vn/_next/static/media/icon_plus.c0488949.svg")
+    no-repeat 50%;
+  background-size: contain;
+  position: absolute;
+  left: -10rem;
+  top: 2rem;
+  z-index: 1;
+  width: 6rem;
+  height: 6rem;
+}
+
+.booking-title::after {
+  content: "";
+  background: url("https://booking.medon.vn/_next/static/media/bg_why_heart_top.425739bd.svg")
+    no-repeat 50%;
+  width: 10rem;
+  height: 15rem;
+  background-size: contain;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 1;
+  max-width: 450px;
+}
